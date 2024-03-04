@@ -1,0 +1,39 @@
+BUILD: GRCh38
+SAMPLE: HG001
+METHOD: PacBio_CCS
+FASTA: /home/chenzonggui/species/homo_sapiens/GRCh38.p13/GRCh38.primary_assembly.genome.fa
+SNP: /home/chenzonggui/repositories/GRCh38_HG001_SNP_Indel/GRCh38_HG001_SNP_Indel.GIAB_v4.2.1_and_v3.3.2.vcf.gz
+MM2_PRESET: map-hifi
+OUTDIR: GRCh38_HG001_PacBio_CCS
+CHROMS: # The order of chromosome should be identical to SNP.vcf file.
+ - chr1
+ - chr2
+ - chr3
+ - chr4
+ - chr5
+ - chr6
+ - chr7
+ - chr8
+ - chr9
+ - chr10
+ - chr11
+ - chr12
+ - chr13
+ - chr14
+ - chr15
+ - chr16
+ - chr17
+ - chr18
+ - chr19
+ - chr20
+ - chr21
+ - chr22
+ - chrX
+ - chrY
+FASTQS:
+ - ../PRJNA540705_HG001_PacBio_CCS/SRR9001768.fastq.gz
+ - ../PRJNA540705_HG001_PacBio_CCS/SRR9001769.fastq.gz
+ - ../PRJNA540705_HG001_PacBio_CCS/SRR9001770.fastq.gz
+ - ../PRJNA540705_HG001_PacBio_CCS/SRR9001771.fastq.gz
+ - ../PRJNA540705_HG001_PacBio_CCS/SRR9001772.fastq.gz
+ - ../PRJNA540705_HG001_PacBio_CCS/SRR9001773.fastq.gz
